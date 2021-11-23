@@ -11,16 +11,14 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text('MyyApp'),
         centerTitle: true,
-        backgroundColor: Colors.red[600],
+        backgroundColor: Colors.amber[600],
       ),
       body: Center(
-        child: RaisedButton(
-          //Flatbutton
-          onPressed: () {
-            print('you are awesome');
-          },
-          child: Text('click me'),
-          color: Colors.lightGreen,
+        child: RaisedButton.icon(
+          onPressed: () {},
+          icon: Icon(Icons.account_tree_outlined),
+          label: Text('mail me'),
+          color: Colors.amber,
         ),
         // child: Icon(Icons.air_sharp, color: Colors.lightBlue, size: 50.0),
         // child: Image.asset('assets/barber.jpg'),
@@ -29,7 +27,7 @@ class Home extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text('click'),
-        backgroundColor: Colors.red[600],
+        backgroundColor: Colors.amber[600],
       ),
     );
   }
