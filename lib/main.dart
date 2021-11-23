@@ -13,16 +13,17 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.amber[600],
       ),
-      body: Center(
-        child: RaisedButton.icon(
-          onPressed: () {},
-          icon: Icon(Icons.account_tree_outlined),
-          label: Text('mail me'),
-          color: Colors.amber,
-        ),
-        // child: Icon(Icons.air_sharp, color: Colors.lightBlue, size: 50.0),
-        // child: Image.asset('assets/barber.jpg'),
-        // child: Image.network('https://images.unsplash.com/photo-1637161286732-d94c874fadba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDUwfGhtZW52UWhVbXhNfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60')
+      body:
+          // Container(
+          //   padding: EdgeInsets.fromLTRB(10.0, 20.0, 30.0,
+          //       40.0), // .symmetric(horizontal: 30.0, vertical: 10.0) / .all(20.0)
+          //   margin: EdgeInsets.all(30.0),
+          //   color: Colors.grey[400],
+          //   child: Text('hello'),
+          // ),
+          Padding(
+        padding: EdgeInsets.all(60),
+        child: Text('example'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
